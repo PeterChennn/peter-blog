@@ -37,7 +37,7 @@ export default {
       color: #ccc;
       text-decoration: none;
       &.router-link-active {
-        color: green;
+        color: #444;
         font-weight: bold;
       }
     }

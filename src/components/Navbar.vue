@@ -1,6 +1,6 @@
 <template>
   <header>
-    <h1>The Peter Blog</h1>
+    <h1>Peter Blog</h1>
     <nav>
       <router-link :to="{ name: 'home' }">Home</router-link>
       <router-link :to="{ name: 'create' }">Create Post</router-link>
@@ -21,7 +21,7 @@ header {
   margin: 0 auto;
   padding: 10px;
   h1 {
-    color: #dfdfdf;
+    color: #444;
     font-size: 48px;
   }
   a {

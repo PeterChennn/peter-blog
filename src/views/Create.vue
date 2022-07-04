@@ -69,6 +69,7 @@ form {
     box-sizing: border-box;
     padding: 10px;
     border: 1px solid #eee;
+    resize: none;
   }
   label {
     display: inline-block;
@@ -82,7 +83,7 @@ form {
       display: block;
       width: 100%;
       height: 100%;
-      background: green;
+      background: #444;
       position: absolute;
       z-index: -1;
       padding-right: 40px;
@@ -103,7 +104,7 @@ form {
 button {
   display: block;
   margin-top: 30px;
-  background: green;
+  background: #444;
   color: white;
   border: none;
   padding: 8px 16px;
